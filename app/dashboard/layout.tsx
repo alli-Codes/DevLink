@@ -6,9 +6,9 @@ export default function CreateNewLinkLayout({
   children: React.ReactNode
 }) {
   return (
-    <div className=" flex flex-col gap-6">
+    <div className="bg-[#FAFAFA] flex flex-col">
       <Header /> 
-      <section className="bg-[#FAFAFA] px-4">
+      <section className=" p-4">
         {children}
       </section>
     </div>
