@@ -28,7 +28,7 @@ export default function SignUp() {
                 <Input type="email" placeholder="Atleast 8 characters" label="Confirm password" showLabel={true} />
                 <p className="text-[#737373] text-xs">Password must contain at least 8 characters</p>
                 <Button name="Create new account" type="signup" />
-                <DontHaveQuestion question="Don't have an account?" link="Create account" />
+                <DontHaveQuestion question="Already have an account?" linkText="Login" linkPath="/signin" />
             </div>
         </section>
     </div>

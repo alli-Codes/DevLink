@@ -26,7 +26,7 @@ export default function SignIn() {
                     <Input type="email" placeholder="e.g. alex@email.com" label="Email address" showLabel={true} onValueChange={handleEmail} />
                     <Input type="email" placeholder="Enter your password" label="Password" showLabel={true} />
                 <Button name="Login" type="login" />
-                <DontHaveQuestion question="Don't have an account?" link="Create account" />
+                <DontHaveQuestion question="Don't have an account?" linkText="Create account" linkPath="/signup" />
             </div>
         </section>
     </div>
