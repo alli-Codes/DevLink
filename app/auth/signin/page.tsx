@@ -1,9 +1,8 @@
 'use client'
 import { useState } from "react"
-import Button from "../components/Button"
-import DontHaveQuestion from "../components/DontHaveQuestion"
-import Input from "../components/Input"
-import InputLabel from "../components/InputLabel"
+import Button from "@/app/components/Button"
+import DontHaveQuestion from "@/app/components/DontHaveQuestion"
+import Input from "@/app/components/Input"
 
 export default function SignIn() {
     const [email, setEmail] = useState('')
@@ -13,7 +12,6 @@ export default function SignIn() {
         setEmail(value)
         console.log(email)
     }
-    // validateForm('hey')
     return <div className="flex flex-col gap-16">
         <section>Devlink</section>
         <section className="flex flex-col gap-10">
