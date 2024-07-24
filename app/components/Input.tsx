@@ -3,13 +3,13 @@
 import { useState } from "react"
 import validateForm from "../lib/validateForm"
 
-export default function Input({ type, placeholder, label, showLabel, onValueChange }: { type: string, placeholder: string, label: string, showLabel: boolean, onValueChange: Function }) {
+export default function Input({ type, placeholder, label, showLabel }: { type: string, placeholder: string, label: string, showLabel: boolean }) {
     const [inputData, setInputData] = useState('h')
     
     const handleInputChange = function (value: string) {
         // let result = validateForm(inputData)
         console.log(value)
-        onValueChange(value)
+        // onValueChange(value)
     }
     return (
         <div className="flex flex-col gap-1">
