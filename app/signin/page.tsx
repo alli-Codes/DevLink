@@ -1,3 +1,6 @@
+import Input from "../components/Input"
+import InputLabel from "../components/InputLabel"
+
 export default function SignIn() {
     return <div className="h-screen flex flex-col">
         <section>Devlink</section>
@@ -9,12 +12,12 @@ export default function SignIn() {
 
             <div className="flex flex-col gap-6">
                 <section className="flex flex-col gap-3">
-                    <label htmlFor="email">Email address</label>
-                <input className="px-4 py-3" type="email" name="" id="" />
+                    <InputLabel label="Email address" />
+                    <Input type="email" placeholder="e.g. alex@email.com" />
                 </section>
                 <section className="flex flex-col gap-3">
-                    <label htmlFor="email">Password</label>
-                <input type="email" name="" id="" />
+                    <InputLabel label="Password" />
+                    <Input type="email" placeholder="e.g. alex@email.com" />
                 </section>
                 <button>Login</button>
             </div>
