@@ -12,7 +12,7 @@ export default function CreateNewLink() {
                 <section className="flex flex-col gap-6">
                     <button className="px-[27px] py-[11px] border border-[#633CFF] text-[#633CFF] font-semibold rounded-lg">Add new link</button>
                     <GetStarted />
-                    <div className="p-4 border-t border-[#D9D9D9]">
+                    <div className="py-4 border-t border-[#D9D9D9]">
                         <Button name="Save" type="save"/>
                     </div>
                 </section>
