@@ -1,3 +1,5 @@
+import Button from "../components/Button"
+import DontHaveQuestion from "../components/DontHaveQuestion"
 import Input from "../components/Input"
 import InputLabel from "../components/InputLabel"
 
@@ -11,15 +13,10 @@ export default function SignIn() {
             </div>
 
             <div className="flex flex-col gap-6">
-                <section className="flex flex-col gap-3">
-                    <InputLabel label="Email address" />
-                    <Input type="email" placeholder="e.g. alex@email.com" />
-                </section>
-                <section className="flex flex-col gap-3">
-                    <InputLabel label="Password" />
-                    <Input type="email" placeholder="e.g. alex@email.com" />
-                </section>
-                <button>Login</button>
+                    <Input type="email" placeholder="e.g. alex@email.com" label="Email address" showLabel={true} />
+                    <Input type="email" placeholder="e.g. alex@email.com" label="Password" showLabel={true} />
+                <Button name="Login" type="login" />
+                <DontHaveQuestion question="Don't have an account?" link="Create account" />
             </div>
         </section>
     </div>
