@@ -1,5 +1,6 @@
 import Button from "@/app/components/Button";
 import GetStarted from "@/app/components/GetStarted";
+import LinkContainer from "@/app/components/LinkContainer";
 
 export default function CreateNewLink() {
     return (
@@ -11,7 +12,9 @@ export default function CreateNewLink() {
                 </section>
                 <section className="flex flex-col gap-6">
                     <button className="px-[27px] py-[11px] border border-[#633CFF] text-[#633CFF] font-semibold rounded-lg">Add new link</button>
-                    <GetStarted />
+                    {/* <GetStarted /> */}
+                    <LinkContainer />
+                    <LinkContainer />
                     <div className="py-4 border-t border-[#D9D9D9]">
                         <Button name="Save" type="save"/>
                     </div>
