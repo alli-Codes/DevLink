@@ -4,17 +4,17 @@ import Input from "../components/Input"
 import InputLabel from "../components/InputLabel"
 
 export default function SignIn() {
-    return <div className="h-screen flex flex-col">
+    return <div className="flex flex-col gap-16">
         <section>Devlink</section>
         <section className="flex flex-col gap-10">
             <div className="flex flex-col gap-2">
-                <h1>Login</h1>
-                <p>Add your details below to get back into the app</p>
+                <h1 className="font-bold text-2xl text-[#333333]">Login</h1>
+                <p className="text-[#737373] ">Add your details below to get back into the app</p>
             </div>
 
             <div className="flex flex-col gap-6">
                     <Input type="email" placeholder="e.g. alex@email.com" label="Email address" showLabel={true} />
-                    <Input type="email" placeholder="e.g. alex@email.com" label="Password" showLabel={true} />
+                    <Input type="email" placeholder="Enter your password" label="Password" showLabel={true} />
                 <Button name="Login" type="login" />
                 <DontHaveQuestion question="Don't have an account?" link="Create account" />
             </div>
