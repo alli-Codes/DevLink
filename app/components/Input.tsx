@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from "react"
-import validateForm from "../lib/validateForm"
+// import validateForm from "../lib/validateForm"
 
 export default function Input({ type, placeholder, label, showLabel }: { type: string, placeholder: string, label: string, showLabel: boolean }) {
     const [inputData, setInputData] = useState('h')
