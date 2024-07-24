@@ -1,8 +1,8 @@
 'use client'
 // import { useState } from "react"
-import Button from "../components/Button"
-import DontHaveQuestion from "../components/DontHaveQuestion"
-import Input from "../components/Input"
+import Button from "../../components/Button"
+import DontHaveQuestion from "../../components/DontHaveQuestion"
+import Input from "../../components/Input"
 // import InputLabel from "../components/InputLabel"
 
 export default function SignUp() {

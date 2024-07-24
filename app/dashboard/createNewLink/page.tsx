@@ -1,6 +1,6 @@
 export default function CreateNewLink() {
     return (
-        <div>
+        <div className="bg-white p-6 rounded-xl">
             <div className="flex flex-col gap-10">
                 <section className="flex flex-col gap-2">
                     <h1 className="font-bold text-2xl text-[#333333]">Customize your links</h1>
