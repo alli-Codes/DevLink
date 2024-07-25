@@ -15,7 +15,7 @@ export default function CreateNewLinkLayout({
               <Link href="" className="w-full">
               <button className="bg-[#633CFF] w-full px-[27px] py-[11px] border border-[#633CFF] text-white font-semibold rounded-lg">Share Link</button></Link>
           </section> 
-        <section className="p-4">
+        <section className="flex justify-center p-4">
         {children}
       </section>
     </div>
