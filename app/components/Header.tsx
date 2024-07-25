@@ -12,7 +12,7 @@ export default function Header() {
                 <Link href="/dashboard/createNewLink"><LinkIcon /></Link>
                 <Link href="/dashboard/profileInfo"><ProfileIcon /></Link>
             </div>
-            <EyeIcon />
+            <Link href="/preview"><EyeIcon /></Link>
         </header>
     )
 }
